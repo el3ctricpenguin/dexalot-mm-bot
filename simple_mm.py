@@ -10,6 +10,8 @@ from enums import OrderSide, OrderType, OrderStatus
 from logger import get_logger
 from market_maker import MarketMaker
 
+import get_okx_price as okx
+
 logger = get_logger('dexalot-demo')
 
 

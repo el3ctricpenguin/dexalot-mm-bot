@@ -26,7 +26,7 @@ def init_config():
     web3 = Web3(HTTPProvider(ulr_devnet))
     web3.middleware_onion.inject(geth_poa_middleware, layer=0)
 
-    private_key = extract_environment_variable('PRIVATE_KEY')
+    private_key = extract_environment_variable('AAAAAAAA')
     register_private_key(web3, private_key)
 
     # Web3 Config
